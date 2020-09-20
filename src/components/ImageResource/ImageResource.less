@@ -1,0 +1,23 @@
+@import '~@/_variable.less';
+
+.img-col {
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 2px #e1e1e1;
+  text-align: center;
+  margin-bottom: 20px;
+
+  &.active {
+    box-shadow: inset 0 0 2px @primary-color;
+  }
+}
+.img-thumbnail {
+  height: 96px;
+  width: 100%;
+  object-fit: contain;
+}
+.img-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 2px 5px;
+}
